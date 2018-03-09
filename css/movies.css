@@ -1,0 +1,128 @@
+body,
+html,
+.container {
+    font-family: 'Monoton';
+    font-family: 'Rye';
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.movies {
+    background-image: url("../background/movies-red.jpg");
+    height: 100vh;
+    float: left;
+    padding: 20px;
+    position: relative;
+    width: 75%;
+    cursor: pointer;
+}
+
+.movies:hover {
+    box-shadow: 0 0 20px 15px #fff;
+    font-weight: bold;
+}
+
+.searcharea {
+    background: linear-gradient(to top right, #fff 0%, #000 100%, #fff 0%, #000);
+    box-shadow: 5px 0 30px 6px black;
+    position: absolute;
+    right: 0px;
+    width: 25%;
+    float: left;
+    height: 100vh;
+}
+
+.searcharea:hover {
+    box-shadow: 0 0 20px 15px #fff;
+    font-weight: bold;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+}
+
+input,
+select {
+    border: none;
+    font-family: 'Cookie';
+    bottom: 30px;
+    left: 0;
+    padding-left: 10px;
+    position: absolute;
+    cursor: pointer;
+    position: relative;
+}
+
+[type=submit] {
+    background: linear-gradient(#200, #600, #fff);
+    border: 1px solid white;
+    margin: 0 10px;
+    padding: 7px 13px;
+    position: absolute;
+    bottom: 30px;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-size: 40px;
+}
+
+[type=submit]:hover {
+    box-shadow: 0 0 20px 15px #f55;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+[name=search] {
+    background: linear-gradient(#200, #600, #fff);
+    border: 1px solid white;
+    margin: 0 10px;
+    padding: 7px 13px;
+    position: absolute;
+    left: 60px;
+    bottom: 30px;
+    height: 35px;
+    width: 250px;
+    color: #fff;
+    font-size: 40px;
+}
+
+[name=search]:focus {
+    box-shadow: 0 0 20px 15px #f55;
+    border-radius: 20px;
+}
+
+[name=searchoption] {
+    background: linear-gradient(#200, #600, #fff);
+    border: 1px solid white;
+    margin: 0 10px;
+    padding: 7px 13px;
+    position: absolute;
+    left: 5px;
+    bottom: 150px;
+    height: 50px;
+    width: 330px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+[name=searchoption]:focus {
+    box-shadow: 0 0 20px 15px #f55;
+    border-radius: 20px;
+}
+
+#actor {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#actor:hover {
+    box-shadow: 0 0 20px 15px #f55;
+    border-radius: 20px;
+}

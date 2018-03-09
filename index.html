@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/movies.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="movies">
+            <div class="movie-cover">
+                <img id="cover" src="" alt="">
+            </div>
+            <div class="movie-info">
+                <div class="title"></div>
+                <div class="timeInMinutes"></div>
+                <div class="premierYear"></div>
+                <div class="categories"></div>
+                <div class="directors"></div>
+                <div class="cast"></div>
+            </div>
+            <div class="movie-cast">
+                <img id="actor" src="" alt="">
+                <div class="actor-name">
+                    <div class="character-name"></div>
+                </div>
+                <div class="birth-info"></div>
+            </div>
+
+        </div>
+        <div class="searcharea">
+            <h1>Movies</h1>
+
+            <div>
+                <input type="submit" value="ok">
+            </div>
+            <div>
+                <input type="text" name="search" placeholder="Search movies">
+            </div>
+            <div>
+                <select name="searchoption" id="searchoption">
+                    <option value="title">Cím</option>
+                    <option value="director">Rendező</option>
+                    <option value="stars">Főszereplők</option>
+                </select>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="/js/movies.js"></script>
+</body>
+
+</html>
